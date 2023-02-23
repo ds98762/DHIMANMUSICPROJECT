@@ -1,5 +1,5 @@
-PING_COMMAND : ["ping", "alive", "innu", "sukun"]
-START_COMMAND : ["start", "mstart"]
+PING_COMMAND : ["ping", "alive", "innu", "inayat"]
+START_COMMAND : ["sukun", "hani"]
 HELP_COMMAND : ["help"]
 SETTINGS_COMMAND : ["settings", "setting"]
 RELOAD_COMMAND : ["admincache", "reload"]
