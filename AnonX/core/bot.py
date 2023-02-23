@@ -10,7 +10,7 @@ from ..logging import LOGGER
 
 class AnonXBot(Client):
     def __init__(self):
-        LOGGER(__name__).info(f"Starting Bot...")
+        LOGGER(__name__).info(f"Starting Sukun Bot...")
         super().__init__(
             "AnonXMusic",
             api_id=config.API_ID,
@@ -33,7 +33,7 @@ class AnonXBot(Client):
                 "Please promote Bot as Admin in Logger Group"
             )
             sys.exit()
-        LOGGER(__name__).info(f"MusicBot Started as {self.name}")
+        LOGGER(__name__).info(f"SukunMusicBot Started as {self.name}")
         try:
             await self.send_message(
                 config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} ʙᴏᴛ sᴛᴀʀᴛᴇᴅ :**\n\n✨ ɪᴅ : `{self.id}`\n❄ ɴᴀᴍᴇ : {self.name}\n💫 ᴜsᴇʀɴᴀᴍᴇ : @{self.username}"
