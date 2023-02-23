@@ -48,8 +48,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("DevilsHeavenMF")
-                await self.one.join_chat("FallenAssociation")
+                await self.one.join_chat("sukunsupports")
+                await self.one.join_chat("sukunupdates")
             except:
                 pass
             assistants.append(1)
@@ -65,7 +65,7 @@ class Userbot(Client):
             else:
                 self.one.name = get_me.first_name
             LOGGER(__name__).info(
-                f"Assistant Started as {self.one.name}"
+                f"Sukun Assistant Started as {self.one.name}"
             )
             try:
                 await self.one.send_message(
