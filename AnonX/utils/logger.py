@@ -22,7 +22,7 @@ async def play_logs(message, streamtype):
 
 **sᴛʀᴇᴀᴍ ᴛʏᴩᴇ:** {streamtype}
 
-ʀᴇᴘᴏ ɪs ᴇᴅɪᴛᴇᴅ ʙʏ [ᴛᴇᴀᴍ Sᴜᴋᴜɴ](https://t.me/sukunsupports)"""
+ʀᴇᴘᴏ ɪs ᴇᴅɪᴛᴇᴅ ʙʏ [ᴛᴇᴀᴍ ᴅʜɪᴍᴀɴ](https://t.me/dhimandiscus)"""
         if message.chat.id != LOG_GROUP_ID:
             try:
                 await app.send_message(
